@@ -19,7 +19,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		title = "Selfie Share"
+		title = "Card Exchange"
 
 		navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(showConnectionPrompt))
 		navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .camera, target: self, action: #selector(importPicture))
