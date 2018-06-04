@@ -57,6 +57,7 @@ class ViewController: UICollectionViewController, UIImagePickerControllerDelegat
 	}
 
     //ToDo: make text
+
 	func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
 		guard let image = info[UIImagePickerControllerEditedImage] as? UIImage else { return }
 
